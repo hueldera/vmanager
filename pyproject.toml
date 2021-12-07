@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "vulnerability-manager"
+version = "0.1.0"
+description = ""
+authors = ["hueldera <huelderantuness@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^3.2.9"
+djangorestframework = "^3.12.4"
+pandas = "^1.3.4"
+django-filter = "^21.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.11b1"
+factory-boy = "^3.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
